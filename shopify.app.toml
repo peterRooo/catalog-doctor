@@ -20,17 +20,10 @@ api_version = "2026-04"
 topics = [ "app/uninstalled" ]
 uri = "/webhooks/app/uninstalled"
 
-[[webhooks.subscriptions]]
-topics = [ "customers/data_request" ]
-uri = "/webhooks/customers/data_request"
-
-[[webhooks.subscriptions]]
-topics = [ "customers/redact" ]
-uri = "/webhooks/customers/redact"
-
-[[webhooks.subscriptions]]
-topics = [ "shop/redact" ]
-uri = "/webhooks/shop/redact"
+[webhooks.privacy_compliance]
+customer_data_request_url = "https://catalog-doctor.vercel.app/webhooks"
+customer_deletion_url = "https://catalog-doctor.vercel.app/webhooks"
+shop_deletion_url = "https://catalog-doctor.vercel.app/webhooks"
 
 [pos]
 embedded = false
