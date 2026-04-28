@@ -93,7 +93,6 @@ const CATALOG_QUERY = `#graphql
             sku
             price
             compareAtPrice
-            inventoryQuantity
             image {
               url
             }

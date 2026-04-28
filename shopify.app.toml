@@ -1,16 +1,16 @@
 name = "Catalog Doctor"
 client_id = "34df8619b2978ecc0a1e7f392b62fe67"
-application_url = "https://cradle-exposure-taxation-digit.trycloudflare.com"
+application_url = "https://catalog-doctor.vercel.app"
 embedded = true
 
 [access_scopes]
-scopes = "read_products,read_inventory"
+scopes = "read_products"
 
 [auth]
 redirect_urls = [
-  "https://cradle-exposure-taxation-digit.trycloudflare.com/auth/callback",
-  "https://cradle-exposure-taxation-digit.trycloudflare.com/auth/shopify/callback",
-  "https://cradle-exposure-taxation-digit.trycloudflare.com/api/auth/callback"
+  "https://catalog-doctor.vercel.app/auth/callback",
+  "https://catalog-doctor.vercel.app/auth/shopify/callback",
+  "https://catalog-doctor.vercel.app/api/auth/callback"
 ]
 
 [webhooks]

@@ -15,7 +15,7 @@
 - [ ] Log in to Shopify CLI.
 - [ ] Run `npx shopify app config link --client-id 34df8619b2978ecc0a1e7f392b62fe67`.
 - [x] Select or create the Partner Dashboard app.
-- [x] Confirm scopes are `read_products,read_inventory`.
+- [x] Confirm scopes are `read_products`.
 - [x] Configure temporary Cloudflare application URL for development.
 - [x] Configure temporary Cloudflare redirect URLs for development.
 - [x] Create development store test data.
@@ -30,8 +30,8 @@
 
 ## Production Before Review
 
-- [ ] Replace temporary Cloudflare URL with stable production hosting URL.
-- [ ] Replace `.env` production values on hosting provider.
+- [x] Replace temporary Cloudflare URL with stable production hosting URL: `https://catalog-doctor.vercel.app`.
+- [x] Replace `.env` production values on hosting provider.
 - [ ] Publish a production app version in Dev Dashboard.
 - [x] Add privacy policy page in app.
 - [x] Add support email: `858338966@qq.com`.
@@ -44,13 +44,13 @@
 - [x] Add Vercel Remix preset and `vercel.json`.
 - [x] Switch production session storage database to Postgres.
 - [x] Add initial Prisma migration for production.
-- [ ] Set environment variables:
+- [x] Set environment variables:
   - `SHOPIFY_API_KEY`
   - `SHOPIFY_API_SECRET`
   - `SHOPIFY_APP_URL`
-  - `SCOPES=read_products,read_inventory`
+  - `SCOPES=read_products`
   - `DATABASE_URL`
-- [ ] Run Prisma migration/deploy command in hosting environment.
+- [x] Run Prisma migration/deploy command in hosting environment.
 - [ ] Confirm `/app` works inside Shopify Admin.
 - [ ] Confirm `/webhooks/app/uninstalled` returns 200 for valid Shopify webhooks.
 

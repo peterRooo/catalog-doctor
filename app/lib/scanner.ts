@@ -89,10 +89,10 @@ export function scanCatalog(snapshot: CatalogSnapshot): ScanResult {
       issues.push(issue("warning", "SEO", "Product", product.id, product.title, "SEO description is missing.", "Add a meta description that summarizes the product and encourages clicks."));
     }
 
-    const activeVariantCount = product.variants.length;
-    const totalInventory = product.variants.reduce((sum, variant) => sum + Math.max(variant.inventoryQuantity ?? 0, 0), 0);
+    const variantsWithInventory = product.variants.filter((variant) => typeof variant.inventoryQuantity === "number");
+    const totalInventory = variantsWithInventory.reduce((sum, variant) => sum + Math.max(variant.inventoryQuantity ?? 0, 0), 0);
 
-    if (product.status === "ACTIVE" && product.isPublished && activeVariantCount > 0 && totalInventory === 0) {
+    if (product.status === "ACTIVE" && product.isPublished && variantsWithInventory.length > 0 && totalInventory === 0) {
       issues.push(issue("warning", "Inventory", "Product", product.id, product.title, "Published product has no available inventory.", "Review inventory tracking, incoming stock, or product visibility so shoppers do not hit a dead end."));
     }
 
