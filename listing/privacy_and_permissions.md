@@ -35,6 +35,7 @@ Catalog Doctor uses read-only access to inspect product and collection metadata 
 
 Public privacy policy paths:
 
+- GitHub Pages: https://peterrooo.github.io/catalog-doctor/privacy.html
 - App route: `/privacy`
 - Static file: `/privacy.html`
 

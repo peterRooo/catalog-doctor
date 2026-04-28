@@ -36,3 +36,7 @@ read_products,read_inventory
 
 - App icon: `public/assets/catalog-doctor-icon.png`
 - Promotional image: `listing/catalog-doctor-promo.png`
+
+## Privacy Policy
+
+https://peterrooo.github.io/catalog-doctor/privacy.html

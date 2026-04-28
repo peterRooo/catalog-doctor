@@ -35,6 +35,7 @@
 - [ ] Publish a production app version in Dev Dashboard.
 - [x] Add privacy policy page in app.
 - [x] Add support email: `858338966@qq.com`.
+- [x] Publish hosted privacy policy URL: `https://peterrooo.github.io/catalog-doctor/privacy.html`.
 - [ ] Add hosted privacy policy URL to Partner Dashboard listing.
 
 ## Hosting

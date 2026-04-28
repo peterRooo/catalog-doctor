@@ -51,6 +51,10 @@ Free.
 
 Support email: 858338966@qq.com
 
+## Privacy Policy URL
+
+https://peterrooo.github.io/catalog-doctor/privacy.html
+
 ## Demo Store Notes
 
 Use a development store with:
@@ -63,6 +67,7 @@ Use a development store with:
 
 ## Asset Paths
 
+- Privacy policy: https://peterrooo.github.io/catalog-doctor/privacy.html
 - App icon uploaded to Dev Dashboard: `listing/processed/catalog-doctor-icon-1200.jpg`
 - Source app icon: `public/assets/catalog-doctor-icon.png`
 - Promotional image: `listing/catalog-doctor-promo.png`
