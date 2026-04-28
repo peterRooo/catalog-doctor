@@ -54,7 +54,7 @@ export default function Dashboard() {
   return (
     <Page
       title="Catalog Doctor"
-      subtitle="Find missing images, weak SEO fields, pricing mistakes, inventory visibility issues, and empty collections."
+      subtitle="Find missing images, weak SEO fields, pricing mistakes, and empty collections."
       primaryAction={
         <Button variant="primary" onClick={() => window.location.reload()}>
           Run scan

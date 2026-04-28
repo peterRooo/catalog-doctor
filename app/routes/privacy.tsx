@@ -11,13 +11,13 @@ export default function PrivacyPolicy() {
                 <Text as="p">Effective date: April 28, 2026</Text>
                 <Text as="p">
                   Catalog Doctor is a Shopify app that helps merchants identify catalog quality issues such as missing
-                  images, incomplete SEO fields, pricing mistakes, inventory visibility issues, and empty collections.
+                  images, incomplete SEO fields, pricing mistakes, and empty collections.
                 </Text>
                 <Text as="h2" variant="headingMd">
                   Information We Access
                 </Text>
                 <Text as="p">
-                  Catalog Doctor requests read-only access to product, variant, image, SEO, inventory, and collection
+                  Catalog Doctor requests read-only access to product, variant, image, SEO, pricing, and collection
                   metadata from the merchant&apos;s Shopify store. This information is used only to generate catalog
                   health reports inside Shopify Admin.
                 </Text>

@@ -10,7 +10,7 @@ Find catalog issues before they cost you sales.
 
 ## Short Description
 
-Catalog Doctor scans your products and collections for missing images, weak SEO fields, pricing mistakes, inventory visibility issues, and empty collections.
+Catalog Doctor scans your products and collections for missing images, weak SEO fields, pricing mistakes, and empty collections.
 
 ## Full Description
 
@@ -24,7 +24,6 @@ The app helps you spot:
 - Missing or very short product descriptions.
 - Zero-price variants.
 - Compare-at prices that are not higher than the selling price.
-- Published products with no available inventory.
 - Empty collections.
 
 Catalog Doctor does not edit products automatically. It gives your team a focused issue list and practical suggested fixes, then you decide what to update inside Shopify.
@@ -45,7 +44,7 @@ Free.
 
 - Store management
 - SEO
-- Inventory management
+- Store data quality
 
 ## Support
 
@@ -62,7 +61,6 @@ Use a development store with:
 - One product missing a featured image.
 - One product with blank SEO title and description.
 - One variant with zero price.
-- One product published with zero inventory.
 - One empty custom collection.
 
 ## Asset Paths

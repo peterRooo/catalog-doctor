@@ -5,9 +5,8 @@
 Catalog Doctor requests read-only catalog access for the first version:
 
 - `read_products`
-- `read_inventory`
 
-The app reads product, variant, image, SEO, inventory, and collection metadata needed to generate a catalog health report.
+The app reads product, variant, image, SEO, pricing, and collection metadata needed to generate a catalog health report.
 
 ## Data Writes
 

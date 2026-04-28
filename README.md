@@ -1,6 +1,6 @@
 # Catalog Doctor
 
-Catalog Doctor is a free, read-only Shopify catalog health check app. It scans products and collections for missing images, weak SEO fields, pricing mistakes, inventory visibility issues, and empty collections.
+Catalog Doctor is a free, read-only Shopify catalog health check app. It scans products and collections for missing images, weak SEO fields, pricing mistakes, and empty collections.
 
 ## Development
 
@@ -39,7 +39,7 @@ variables:
 SHOPIFY_API_KEY=34df8619b2978ecc0a1e7f392b62fe67
 SHOPIFY_API_SECRET=...
 SHOPIFY_APP_URL=https://your-vercel-domain.vercel.app
-SCOPES=read_products,read_inventory
+SCOPES=read_products
 DATABASE_URL=postgresql://...
 ```
 
@@ -49,7 +49,7 @@ database migrations, and builds Remix.
 ## Scopes
 
 ```text
-read_products,read_inventory
+read_products
 ```
 
 ## Listing Assets
