@@ -11,6 +11,7 @@
     "setup": "prisma generate && prisma migrate deploy",
     "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc --noEmit",
+    "vercel-build": "prisma generate && prisma migrate deploy && remix vite:build",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "@remix-run/dev": "^2.17.4",
+    "@vercel/remix": "^2.16.7",
     "@types/node": "^22.18.6",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",

@@ -11,6 +11,9 @@ npx prisma generate
 npm run dev:remix
 ```
 
+Production uses Postgres for Shopify session storage. For local development, use
+any reachable Postgres database and set `DATABASE_URL` in `.env`.
+
 For Shopify OAuth testing, log in to the Shopify CLI and link the app:
 
 ```bash
@@ -25,6 +28,23 @@ npm test
 npm run typecheck
 npm run build
 ```
+
+## Vercel Deployment
+
+This app can run on Vercel as a Remix app. Before the first production deploy,
+create or connect a Postgres database in Vercel and set these environment
+variables:
+
+```text
+SHOPIFY_API_KEY=34df8619b2978ecc0a1e7f392b62fe67
+SHOPIFY_API_SECRET=...
+SHOPIFY_APP_URL=https://your-vercel-domain.vercel.app
+SCOPES=read_products,read_inventory
+DATABASE_URL=postgresql://...
+```
+
+Vercel uses `npm run vercel-build`, which generates Prisma Client, applies
+database migrations, and builds Remix.
 
 ## Scopes
 

@@ -40,7 +40,10 @@
 
 ## Hosting
 
-- [ ] Choose hosting provider.
+- [x] Choose hosting provider: Vercel.
+- [x] Add Vercel Remix preset and `vercel.json`.
+- [x] Switch production session storage database to Postgres.
+- [x] Add initial Prisma migration for production.
 - [ ] Set environment variables:
   - `SHOPIFY_API_KEY`
   - `SHOPIFY_API_SECRET`
