@@ -32,7 +32,7 @@
 
 - [x] Replace temporary Cloudflare URL with stable production hosting URL: `https://catalog-doctor.vercel.app`.
 - [x] Replace `.env` production values on hosting provider.
-- [ ] Publish a production app version in Dev Dashboard.
+- [x] Publish a production app version in Dev Dashboard: `catalog-doctor-5`.
 - [x] Add privacy policy page in app.
 - [x] Add support email: `858338966@qq.com`.
 - [x] Publish hosted privacy policy URL: `https://peterrooo.github.io/catalog-doctor/privacy.html`.
@@ -51,7 +51,7 @@
   - `SCOPES=read_products`
   - `DATABASE_URL`
 - [x] Run Prisma migration/deploy command in hosting environment.
-- [ ] Confirm `/app` works inside Shopify Admin.
+- [x] Confirm `/app` works inside Shopify Admin.
 - [ ] Confirm `/webhooks/app/uninstalled` returns 200 for valid Shopify webhooks.
 
 ## App Store Submission
